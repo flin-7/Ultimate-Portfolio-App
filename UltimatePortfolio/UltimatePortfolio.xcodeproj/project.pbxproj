@@ -10,6 +10,7 @@
 		C21A730E260C707B00154F88 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C21A730C260C707B00154F88 /* Main.xcdatamodeld */; };
 		C21A7311260C733300154F88 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21A7310260C733300154F88 /* DataController.swift */; };
 		C21A7317260C792900154F88 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C21A7316260C792900154F88 /* CloudKit.framework */; };
+		C21E526126165A5500DDA28C /* Binding-OnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21E526026165A5500DDA28C /* Binding-OnChange.swift */; };
 		C2525C0C2615561A00C34729 /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2525C0B2615561A00C34729 /* EditItemView.swift */; };
 		C2525C0F2615596A00C34729 /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2525C0E2615596A00C34729 /* ItemRowView.swift */; };
 		C26859A2260BE33D00EDC0EF /* UltimatePortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26859A1260BE33D00EDC0EF /* UltimatePortfolioApp.swift */; };
@@ -27,6 +28,7 @@
 		C21A7310260C733300154F88 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		C21A7313260C78EC00154F88 /* UltimatePortfolio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UltimatePortfolio.entitlements; sourceTree = "<group>"; };
 		C21A7316260C792900154F88 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		C21E526026165A5500DDA28C /* Binding-OnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding-OnChange.swift"; sourceTree = "<group>"; };
 		C2525C0B2615561A00C34729 /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
 		C2525C0E2615596A00C34729 /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
 		C268599E260BE33D00EDC0EF /* UltimatePortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltimatePortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +94,7 @@
 				C21A7310260C733300154F88 /* DataController.swift */,
 				E53AF08D26145597005D08D6 /* Item-CoreDataHelpers.swift */,
 				E53AF09026145675005D08D6 /* Project-CoreDataHelpers.swift */,
+				C21E526026165A5500DDA28C /* Binding-OnChange.swift */,
 				C26859A5260BE33E00EDC0EF /* Assets.xcassets */,
 				C26859AA260BE33E00EDC0EF /* Info.plist */,
 				C26859A7260BE33E00EDC0EF /* Preview Content */,
@@ -182,6 +185,7 @@
 				C21A7311260C733300154F88 /* DataController.swift in Sources */,
 				C2525C0F2615596A00C34729 /* ItemRowView.swift in Sources */,
 				C26859A4260BE33D00EDC0EF /* ContentView.swift in Sources */,
+				C21E526126165A5500DDA28C /* Binding-OnChange.swift in Sources */,
 				E50D89C2260D8B92000394D3 /* HomeView.swift in Sources */,
 				C26859A2260BE33D00EDC0EF /* UltimatePortfolioApp.swift in Sources */,
 				E53AF08E26145597005D08D6 /* Item-CoreDataHelpers.swift in Sources */,
