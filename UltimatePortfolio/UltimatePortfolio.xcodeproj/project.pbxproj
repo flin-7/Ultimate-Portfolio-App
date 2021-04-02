@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C20DF7F02617BB3200BB3D23 /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20DF7EF2617BB3200BB3D23 /* ProjectHeaderView.swift */; };
+		C20DF7F32617BDD000BB3D23 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C20DF7F22617BDD000BB3D23 /* Colors.xcassets */; };
 		C21A730E260C707B00154F88 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C21A730C260C707B00154F88 /* Main.xcdatamodeld */; };
 		C21A7311260C733300154F88 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21A7310260C733300154F88 /* DataController.swift */; };
 		C21A7317260C792900154F88 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C21A7316260C792900154F88 /* CloudKit.framework */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C20DF7EF2617BB3200BB3D23 /* ProjectHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectHeaderView.swift; sourceTree = "<group>"; };
+		C20DF7F22617BDD000BB3D23 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		C21A730D260C707B00154F88 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
 		C21A7310260C733300154F88 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		C21A7313260C78EC00154F88 /* UltimatePortfolio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UltimatePortfolio.entitlements; sourceTree = "<group>"; };
@@ -88,6 +92,7 @@
 				C26859A3260BE33D00EDC0EF /* ContentView.swift */,
 				E50D89C1260D8B92000394D3 /* HomeView.swift */,
 				C2525C0B2615561A00C34729 /* EditItemView.swift */,
+				C20DF7EF2617BB3200BB3D23 /* ProjectHeaderView.swift */,
 				E50D89C4260D8BE2000394D3 /* ProjectsView.swift */,
 				C2525C0E2615596A00C34729 /* ItemRowView.swift */,
 				C21A730C260C707B00154F88 /* Main.xcdatamodeld */,
@@ -96,6 +101,7 @@
 				E53AF09026145675005D08D6 /* Project-CoreDataHelpers.swift */,
 				C21E526026165A5500DDA28C /* Binding-OnChange.swift */,
 				C26859A5260BE33E00EDC0EF /* Assets.xcassets */,
+				C20DF7F22617BDD000BB3D23 /* Colors.xcassets */,
 				C26859AA260BE33E00EDC0EF /* Info.plist */,
 				C26859A7260BE33E00EDC0EF /* Preview Content */,
 			);
@@ -167,6 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C20DF7F32617BDD000BB3D23 /* Colors.xcassets in Resources */,
 				C26859A9260BE33E00EDC0EF /* Preview Assets.xcassets in Resources */,
 				C26859A6260BE33E00EDC0EF /* Assets.xcassets in Resources */,
 			);
@@ -180,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E50D89C5260D8BE2000394D3 /* ProjectsView.swift in Sources */,
+				C20DF7F02617BB3200BB3D23 /* ProjectHeaderView.swift in Sources */,
 				C21A730E260C707B00154F88 /* Main.xcdatamodeld in Sources */,
 				E53AF09126145675005D08D6 /* Project-CoreDataHelpers.swift in Sources */,
 				C21A7311260C733300154F88 /* DataController.swift in Sources */,
